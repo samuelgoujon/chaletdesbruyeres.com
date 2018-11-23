@@ -763,11 +763,11 @@ function initMap() {
     map = new google.maps.Map(document.getElementById('map-location'), {
         //Set Latitude and Longitude Here
         center: {
-            lat: 48.733924,
-            lng: 1.764292
+            lat: 48.733859,
+            lng: 1.763837
         },
         zoom: 14,
-        gestureHandling: 'none'
+        gestureHandling: 'greedy'
     });
 
     var infowindow = new google.maps.InfoWindow({
@@ -776,8 +776,8 @@ function initMap() {
 
     var marker = new google.maps.Marker({
     position: {
-        lat: 48.733924,
-        lng: 1.764292
+        lat: 48.733859,
+        lng: 1.763837
     },
     map: map,
     title: 'Le Chalet des Bruyères'
