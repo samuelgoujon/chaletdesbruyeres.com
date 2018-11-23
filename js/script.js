@@ -255,15 +255,12 @@
 			center: {lat: 48.733924, lng: 1.764292}
 		  });
 
-		  //Add map Marker
-		  map.addMarker({
-			center: {lat: 48.733924, lng: 1.764292},
-			infoWindow: {
-			  content: '<p style="text-align:center;"><strong>David Lowe</strong><br>Route de Monnereau<br>78610 Saint-Léger-en-Yvelines<br>France</p>'
-			}
+		var infowindow = new google.maps.InfoWindow({
+	    content: '<p style="text-align:center;"><strong>David Lowe</strong><br>Route de Monnereau<br>78610 Saint-Léger-en-Yvelines<br>France</p>'
+	  });
 
 		});
-	}
+	
 
 
 	// Scroll to top
