@@ -64,7 +64,7 @@
  ***/
 
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Libre Baskerville', serif;
 	font-size:13px;
 	color:#656d70;
 	line-height:1.8em;
@@ -89,7 +89,7 @@ a:hover,a:focus,a:visited{
 
 h1,h2,h3,h4,h5,h6 {
 	position:relative;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Libre Baskerville', serif;
 	font-weight:normal;
 	margin:0px;
 	background:none;
@@ -97,7 +97,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 input,button,select,textarea{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Libre Baskerville', serif;
 }
 
 .bitter-font{
@@ -192,7 +192,7 @@ ul,li{
 	font-size:11px;
 	font-style:normal;
 	border:2px solid #000 !important;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Libre Baskerville', serif;
 	border-radius:3px;
 	-webkit-border-radius:3px;
 	-ms-border-radius:3px;
@@ -226,7 +226,7 @@ ul,li{
 	color:#ffffff !important;
 	font-size:11px;
 	border:2px solid #ffffff !important;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Libre Baskerville', serif;
 	font-style:normal;
 	border-radius:3px;
 	-webkit-border-radius:3px;
