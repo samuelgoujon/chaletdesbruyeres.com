@@ -250,7 +250,7 @@
 		 	map = new google.maps.Map(document.getElementById('map-location'), {
 			//Set Latitude and Longitude Here
 			center: {lat: 48.733924, lng: 1.764292},
-			zoom: 14,
+			zoom: 14
 		  });
 
 		var infowindow = new google.maps.InfoWindow({
