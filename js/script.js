@@ -252,14 +252,12 @@
 			zoom: 14,
 			scrollwheel:false,
 			//Set Latitude and Longitude Here
-			lat: 48.733924,
-			lng: 1.764292
+			center: {lat: 48.733924, lng: 1.764292}
 		  });
 
 		  //Add map Marker
 		  map.addMarker({
-			lat: 48.733924,
-			lng: 1.764292,
+			center: {lat: 48.733924, lng: 1.764292},
 			infoWindow: {
 			  content: '<p style="text-align:center;"><strong>David Lowe</strong><br>Route de Monnereau<br>78610 Saint-Léger-en-Yvelines<br>France</p>'
 			}
