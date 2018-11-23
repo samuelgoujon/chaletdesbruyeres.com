@@ -244,11 +244,10 @@
 		});
 	}
 
-
 	// Google Map Settings
 	if($('#map-location').length){
 		var map;
-		 map = new GMaps({
+		 map = new google.maps.Map(document.getElementById('map'),{
 			el: '#map-location',
 			zoom: 14,
 			scrollwheel:false,
