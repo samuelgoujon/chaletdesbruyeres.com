@@ -282,7 +282,7 @@
 
     $('.page-scroll a').click(function() {
         $root.animate({
-            scrollTop: $($.attr(this, 'href')).offset().top - 150
+            scrollTop: $($.attr(this, 'href')).offset().top - 50
         }, 1000);
 
         return false;
