@@ -771,6 +771,19 @@ function initMap() {
     var infowindow = new google.maps.InfoWindow({
         content: '<p style="text-align:center;"><strong>David Lowe</strong><br>Route de Monnereau<br>78610 Saint-Léger-en-Yvelines<br>France</p>'
     });
+
+    var marker = new google.maps.Marker({
+    position: {
+        lat: 48.733924,
+        lng: 1.764292
+    },
+    map: map,
+    title: 'Le Chalet des Bruyères'
+  });
+  marker.addListener('click', function() {
+    infowindow.open(map, marker);
+  });
+
 }
 </script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMf3hyY8SBYodCuy2kq0sp4VB_UeBV06c&callback=initMap" type="text/javascript"></script>
