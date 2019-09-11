@@ -1199,31 +1199,31 @@ ul,li{
 }
 
 .main-slider .bg-grey .title-column{
-	width:40%;
+	width:42%;
 	padding-left:40px;
 }
 
 .main-slider .bg-grey .info-column{
-	width:18%;
+	width:28%;
 	padding:45px 30px 20px;
 	text-transform:uppercase;
 }
 
 .main-slider .bg-grey .price-column{
-	width:24%;
+	width:0%;
 	padding:45px 30px 20px;
 }
 
 .main-slider .bg-grey .price{
 	display:block;
-	margin:15px 30px 0px 0px;
+	margin:0px 0px 0px 0px;
 	color:#fff;
 }
 
 .main-slider .bg-grey .view-more{
 	position:relative;
 	float:left;
-	width:18%;
+	width:30%;
 	right:0px;
 	top:0px;
 	padding:66px 20px;
