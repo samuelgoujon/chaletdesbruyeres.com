@@ -2037,7 +2037,7 @@ ul,li{
 	min-height:40px;
 	color:#353535;
 }
-
+/*
 .agent-section .info-box li a{
 	color:#90a2a8;
 }
@@ -2045,7 +2045,7 @@ ul,li{
 .agent-section .info-box li a:hover{
 	color:#000;
 }
-
+*/
 .agent-section .info-box li.address,
 .agent-section .info-box li.contact-info{
 	padding-left:45px;
