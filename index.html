@@ -768,7 +768,7 @@
 
     <!--Map Section-->
     <section class="map-section">
-    	<div id="map-location" class="map-container"></div>
+        <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=1.757469177246094%2C48.73241738447635%2C1.7660415172576907%2C48.737512197810915&amp;layer=mapnik" style="border: 0px"></iframe>
     </section>
 
 
@@ -854,38 +854,5 @@
 <script src="js/validate.js"></script>
 <script src="js/wow.js"></script>
 <script src="js/script.js"></script>
-<script>
-var map;
-
-function initMap() {
-    map = new google.maps.Map(document.getElementById('map-location'), {
-        //Set Latitude and Longitude Here
-        center: {
-            lat: 48.733859,
-            lng: 1.763837
-        },
-        zoom: 14,
-        gestureHandling: 'greedy'
-    });
-
-    var infowindow = new google.maps.InfoWindow({
-        content: '<p style="text-align:left;">Le Chalet des Bruyères<br>Route Monnereau<br>Saint-Léger-en-Yvelines (78610)<br>France</p>'
-    });
-
-    var marker = new google.maps.Marker({
-    position: {
-        lat: 48.733859,
-        lng: 1.763837
-    },
-    map: map,
-    title: 'Le Chalet des Bruyères'
-  });
-  marker.addListener('click', function() {
-    infowindow.open(map, marker);
-  });
-
-}
-</script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMf3hyY8SBYodCuy2kq0sp4VB_UeBV06c&callback=initMap" type="text/javascript"></script>
 </body>
 </html>

@@ -246,27 +246,7 @@
             }
         });
     }
-/*
-    // Google Map Settings
-    if ($('#map-location').length) {
-        var map;
 
-        function initMap() {
-            map = new google.maps.Map(document.getElementById('map-location'), {
-                //Set Latitude and Longitude Here
-                center: {
-                    lat: 48.733924,
-                    lng: 1.764292
-                },
-                zoom: 14
-            });
-
-            var infowindow = new google.maps.InfoWindow({
-                content: '<p style="text-align:center;"><strong>David Lowe</strong><br>Route de Monnereau<br>78610 Saint-Léger-en-Yvelines<br>France</p>'
-            });
-        }
-    }
-*/
     // Scroll to top
     if ($('.scroll-to-top').length) {
         $(".scroll-to-top").on('click', function() {
